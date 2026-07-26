@@ -25,13 +25,13 @@ export default function Hero() {
         style={{ y: bgY }}
         className="absolute inset-0 scale-110 bg-cover bg-center"
       >
-        <img
+        {/*<img
           src="./images/hero-bg.jpg"
           alt=""
           className="w-full h-full object-cover"
           aria-hidden="true"
-        />
-      </motion.div>
+        />*/}
+      </motion.div> 
 
       {/* Gradient scrim for legibility */}
       <div className="absolute inset-0 bg-gradient-to-b from-forest/85 via-forest/70 to-forest" />
